@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevPlanner.Web", "DevPlanner.Web\DevPlanner.Web.csproj", "{92833210-0D80-42B6-A9B8-AE6411E98602}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScripts", "DatabaseScripts", "{DA218794-F984-44BB-B17B-E15C61BC75EB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\mark\Downloads\dbo.DimDate.Table.sql = ..\..\Users\mark\Downloads\dbo.DimDate.Table.sql
+		..\..\Users\mark\Downloads\dbo.Tickets.Table.sql = ..\..\Users\mark\Downloads\dbo.Tickets.Table.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
